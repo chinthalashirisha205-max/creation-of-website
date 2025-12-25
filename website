@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <h1 style="text-align: center;">Welcome to Github</h1>
+<head>
+    <style>
+        .form-group {
+            text-align: center;
+        }
+        body {
+            background-color: #e0f2fe;
+        }
+
+    </style>
+</head>
+<body>
+
+<form>
+    <div class="form-group">
+        <label>Full Name</label><br>
+        <input type="text" placeholder="Enter your full name"><br><br>
+        <label>Email:</label><br>
+    <input type="email" placeholder="Enter your email"><br><br>
+
+    <!-- Password -->
+    <label>Password:</label><br>
+    <input type="password" placeholder="Enter password"><br><br>
+
+    <!-- Gender -->
+    <label>Gender:</label><br>
+    <input type="radio" name="gender"> Male
+    <input type="radio" name="gender"> Female<br><br>
+
+    <!-- Date of Birth -->
+    <label>Date of Birth:</label><br>
+    <input type="date"><br><br>
+
+    <!-- Course -->
+    <label>Course:</label><br>
+    <select>
+        <option>Select</option>
+        <option>HTML</option>
+        <option>CSS</option>
+        <option>JavaScript</option>
+    </select><br><br>
+
+    <!-- Submit -->
+    <input type="submit" value="Create Account">
+    <input type="reset" value="Reset">
+    </div>
+</form>
+
+</body>
+</html>
